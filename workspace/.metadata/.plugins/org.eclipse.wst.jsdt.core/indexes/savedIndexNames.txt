@@ -1,6 +1,1 @@
 INDEX VERSION 1.4+D:\손안의자바\workspace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-3762754496.index
-3033190499.index
-2103227302.index
-1655708852.index
-2294557282.index
