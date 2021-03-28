@@ -71,7 +71,9 @@ public class If {
 
         // Switch문 Quiz 03 -End-
 
-   
+            	
+
+
         }
         
         //int c = (int) (Math.random()*2951 + 1000); //1000 -3999

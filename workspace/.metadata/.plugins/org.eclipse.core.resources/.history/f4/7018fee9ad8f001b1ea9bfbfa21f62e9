@@ -18,30 +18,18 @@ public class If {
         int score = 90;
         char grade;
 
-//        if(score >= 60) {
-//            grade = 'D';
-//        } else if(score >= 80) {
-//            grade = 'B';
-//        } else if(score >= 70) {
-//            grade = 'C';
-//        } else if(score >= 90) {
-//            grade = 'A';
-//        } else {
-//            grade = 'F';
-//        }
-        if(score >= 90) {
-        	grade = 'A';
+        if(score >= 60) {
+            grade = 'D';
         } else if(score >= 80) {
-        	grade = 'B';
+            grade = 'B';
         } else if(score >= 70) {
-        	grade = 'C';
-
-        } else if(score >= 60) {
-        	grade = 'D';
+            grade = 'C';
+        } else if(score >= 90) {
+            grade = 'A';
         } else {
-        	grade = 'F';
+            grade = 'F';
         }
-        System.out.println("3번 : " + grade); // 정답 : A
+        System.out.println("3번 : " + grade); // 정답 : D
 
         // If문 Quiz 02 -End-
 
@@ -52,29 +40,34 @@ public class If {
 
         int[] arr = {1,2,3,4,5};
         int index = (int) (Math.random()*arr.length) ;
-        System.out.println("랜덤:"+ index);
+        System.out.println(index);
         
+        //int c = (int) (Math.random()*2951 + 1000); //1000 -3999
         
         switch (arr[index]) {
-            case(1) :
+            case(0) :
                 System.out.println("1등");
             	break;
-            case(2) :
+            case(1) :
                 System.out.println("2등");
             	break;
-            case(3) :
+            case(2) :
                 System.out.println("3등");
             	break;
+            case(4) :
+                System.out.println("꼴찌");
+            	break;  
             default :
             	System.out.println("탈락");
             	break;
 
         // Switch문 Quiz 03 -End-
 
-   
+            	
+
+
         }
         
-        //int c = (int) (Math.random()*2951 + 1000); //1000 -3999
 		        // 랜덤함수 공식
 //		        int i = 0 ;
 //		        while(i < 10) {
@@ -86,7 +79,7 @@ public class If {
 //		            System.out.print(a + " ");
 //		            i++;
 		
-//		        }
+		        }
         
     }
 

@@ -32,16 +32,16 @@ public class If {
         if(score >= 90) {
         	grade = 'A';
         } else if(score >= 80) {
-        	grade = 'B';
+            grade = 'B';
         } else if(score >= 70) {
-        	grade = 'C';
-
+            grade = 'C';
+            
         } else if(score >= 60) {
-        	grade = 'D';
+            	grade = 'D';
         } else {
-        	grade = 'F';
+            grade = 'F';
         }
-        System.out.println("3번 : " + grade); // 정답 : A
+        System.out.println("3번 : " + grade); // 정답 : D
 
         // If문 Quiz 02 -End-
 
@@ -71,7 +71,9 @@ public class If {
 
         // Switch문 Quiz 03 -End-
 
-   
+            	
+
+
         }
         
         //int c = (int) (Math.random()*2951 + 1000); //1000 -3999
