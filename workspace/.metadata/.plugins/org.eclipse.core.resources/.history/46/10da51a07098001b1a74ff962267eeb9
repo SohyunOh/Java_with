@@ -80,10 +80,10 @@ public class For {
 					count++ ;
 				}
 				
-			}
-			if(count == 2 ) {
-				sum += i;
-				System.out.println("sum:"+ sum);
+				if(count == 2 ) {
+					sum += i;
+					System.out.println("sum:"+ sum);
+				}
 			}
 		}
 	
