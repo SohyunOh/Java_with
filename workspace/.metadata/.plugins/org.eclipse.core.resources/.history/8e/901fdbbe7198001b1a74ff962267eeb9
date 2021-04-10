@@ -68,27 +68,27 @@ public class For {
 		// 소수 : 자기 자신과 1로 나누워을 때 나누어는것 , 단 2는 소수가 맞다. 단 1은 소수가 아니다
 		// count : 1과 자기자신을 쌤
 		
-//		Scanner sc = new Scanner(System.in);
-//		System.out.print("n의 정수 입력 : " );
-//		int n = sc.nextInt();
-//		int sum	= 0;
-//
-//		for(int i=2; i<=n; i++){ //소수는 2부터 시작됨  
-//			int count = 0;
-//			for(int j = 1 ; j <= i ; j++){
-//				if(i % j == 0 ) {
-//					count++ ;
-//				}
-//				
-//			}
-//			if(count == 2 ) {
-//				sum += i;
-//				System.out.println("sum:"+ sum);
-//			}
-//		}
-//	
-//		System.out.println("정수 합:" + sum);
-//	
+		Scanner sc = new Scanner(System.in);
+		System.out.print("n의 정수 입력 : " );
+		int n = sc.nextInt();
+		int sum	= 0;
+
+		for(int i=2; i<=n; i++){ //소수는 2부터 시작됨  
+			int count = 0;
+			for(int j = 1 ; j <= i ; j++){
+				if(i % j == 0 ) {
+					count++ ;
+				}
+				
+			}
+			if(count == 2 ) {
+				sum += i;
+				System.out.println("sum:"+ sum);
+			}
+		}
+	
+		System.out.println("정수 합:" + sum);
+	
 	
 //	1
 //	12
@@ -96,13 +96,11 @@ public class For {
 //	1234
 //	12345
 	
-	for(int i = 1 ; i <= 5 ; i++) {
-		int k = 0 ;
-		for(int j = 1 ; j <= i ; j++) {
-			k++;
-			System.out.print(k);
+	
+	for(int i = 1 ; i <=5 ; i++) {
+		for(int j = 5 ; j <=5 ; j--) {
+			System.out.println(j);
 		}
-		System.out.println();
 	}
 		
 	
